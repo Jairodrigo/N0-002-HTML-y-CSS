@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria KJ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Café KJ</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Café de especialidad, tostado con cariño</h2>
+        <img src="https://img.freepik.com/fotos-premium/taza-cafe-bebida-deliciosa-imagen-aislada-alta-resolucion_1047544-6446.jpg" alt="Taza de café">
+        <p>
+            En Café KJ selecionamos granos de pequeños productores peruanos y los 
+            tostamos en pequeños lotes para que cada taza cuente una historia
+        </p>
+    </section>
+
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3>Espresso</h3>
+                <p>Intenso y aromático, la base de todo buen café.</p>
+                <p class="precio">S/ 6</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Cappuccino</h3>
+                <p>Espresso, leche vaporizada y una capa de espuma cremosa.</p>
+                <p class="precio">S/ 9</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Cold Brew</h3>
+                <p>Extracción en frío durante 12 horas, suave y refrescante.</p>
+                <p class="precio">S/ 10</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Croissant de almendras</h3>
+                <p>Hojaldre relleno de crema de almendras, horneado a diario.</p>
+                <p class="precio">S/ 8</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Visítanos</h2>
+        <p>Av. Los granos 123, Chiclayo, Perú</p>
+        <p>Escríbenos: <a href="kj@cafe.pe">kj@cafe.pe</a></p>
+
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+            <label for="email">Correo</label>
+            <input type="text" id="email" name="email" placeholder="tu@correo.com">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>2026 Caferería KJ. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
